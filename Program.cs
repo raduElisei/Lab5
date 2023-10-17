@@ -8,5 +8,7 @@ public class Program
 
         (int, int) results = ArrayHelper.ArrayMinMax(myArray);
         Console.WriteLine(results);
+
+        //uint[] fib10 = ArrayHelper.GenerateFib(10);
     }
 }
