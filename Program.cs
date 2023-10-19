@@ -11,12 +11,12 @@ public class Program
 
         //uint[] fib10 = ArrayHelper.GenerateFib(10);
 
-        int[] sortedArray = { -400, -300, -234, -5 -1, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 44, 56, 98, 1111, 2000};
-        int recursiveSolution = RecursiveBinary.FindIndexInSortedArray(sortedArray, -300);
+        int[] sortedArray = { -400, -300, -234, -5, -1, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 44, 56, 98, 1111, 2000};
+        int recursiveSolution = RecursiveBinary.FindIndexInSortedArray(sortedArray, -300, 0);
         System.Console.WriteLine(recursiveSolution);
-        int recursiveSolution2 = RecursiveBinary.FindIndexInSortedArray(sortedArray, 13);
+        int recursiveSolution2 = RecursiveBinary.FindIndexInSortedArray(sortedArray, 13, 0);
         System.Console.WriteLine(recursiveSolution2);
-        int recursiveSolution3 = RecursiveBinary.FindIndexInSortedArray(sortedArray, 2000);
+        int recursiveSolution3 = RecursiveBinary.FindIndexInSortedArray(sortedArray, 2000, 0);
         System.Console.WriteLine(recursiveSolution3);
     }
 }
